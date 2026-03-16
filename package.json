@@ -1,0 +1,20 @@
+{
+  "name": "domino-multiplayer",
+  "version": "1.1.0",
+  "description": "Domino multiplayer server",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "socket.io": "^4.5.1"
+  }
+}
